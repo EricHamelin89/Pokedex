@@ -1,0 +1,82 @@
+.App {
+  padding-top: 5rem;
+  min-height: 100vh;
+  /* background: slategray; */
+  background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+}
+
+.loading-text {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Route Link */
+.route-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.route-link:hover {
+  text-decoration: none;
+  color: #ef5350;
+}
+
+/* Normal Links */
+.normal-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.normal-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Utility CSS */
+.capitalize {
+  text-transform: capitalize;   
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+/* Animations */
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+#search, #search-result {
+  margin: 0px auto;
+  width: 90%;
+}
+
+/* Overwriting bootstrap css */
+.modal {
+  color: black;
+}
+.modal-backdrop {
+  z-index: 0;
+}
+
+/* .yellow {
+  background-color: #FFFC31;
+  color: #393E41;
+} */
